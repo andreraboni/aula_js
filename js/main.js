@@ -45,8 +45,26 @@ for (count = 0; count <= 10; count++){
 
 
 var d = new Date();
-console.log(d.getFullYear());*/
+console.log(d.getFullYear());
 
-var f1 = "isso";
-var f2 = "aquilo";
-console.log(f1 + f2 "1439" + "-" + "1545");
+
+
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(setReplace("Vai Japão!", "Japão", "Austrália!"));
+*/
+
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "Clique aqui agora para conhecer meu GitHub";
+}
+
+function redirecionar(){
+    window.open("https://github.com/andreraboni");
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar seu mouse!";
+    //alert("Trocar texto");
+}
